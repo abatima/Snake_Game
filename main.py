@@ -33,26 +33,17 @@ while game_is_on:
         snake.extend_snake()
         scoreboard.increase_score()
 
-    if snake.snake_head.xcor() > 280 or snake.snake_head.xcor() < -280 or snake.snake_head.ycor() > 280 or snake.snake_head.ycor() < -280:
+    if (snake.snake_head.xcor() > 280
+            or snake.snake_head.xcor() < -280
+            or snake.snake_head.ycor() > 280
+            or snake.snake_head.ycor() < -280
+    ):
         game_is_on = False
         scoreboard.game_over()
 
-    for snake_part in snake.snake_parts:
-        if snake_part == snake.snake_head:
-            pass
-        elif snake.snake_head.distance(snake_part) < 10:
+    for snake_part in snake.snake_parts[2:]:
+        if snake.snake_head.distance(snake_part) < 10:
             game_is_on = False
             scoreboard.game_over()
-
-
-
-
-
-
-
-
-
-
-
 
 screen.exitonclick()
