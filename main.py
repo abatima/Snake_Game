@@ -6,7 +6,7 @@ from scoreboard import Scoreboard
 
 snake = Snake()
 food = Food()
-score = Scoreboard()
+scoreboard = Scoreboard()
 
 screen = Screen()
 screen.tracer(0)
@@ -31,11 +31,19 @@ while game_is_on:
     if snake.snake_head.distance(food) < 15:
         food.move_food()
         snake.extend_snake()
-        score.increase_score()
+        scoreboard.increase_score()
 
     if snake.snake_head.xcor() > 280 or snake.snake_head.xcor() < -280 or snake.snake_head.ycor() > 280 or snake.snake_head.ycor() < -280:
         game_is_on = False
-        score.game_over()
+        scoreboard.game_over()
+
+    for snake_part in snake.snake_parts:
+        if snake_part == snake.snake_head:
+            pass
+        elif snake.snake_head.distance(snake_part) < 10:
+            game_is_on = False
+            scoreboard.game_over()
+
 
 
 
