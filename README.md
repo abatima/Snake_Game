@@ -74,7 +74,7 @@ Use the **Arrow Keys** on your keyboard to navigate:
 
 ## 📜 License
 
-This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
+This project is open-source and available under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
 ## 🤝 Contributing
 
