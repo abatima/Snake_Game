@@ -83,6 +83,3 @@ Feel free to fork this project and submit a pull request! Potential improvements
 ---
 
 *Created by [abatima*](https://www.google.com/search?q=https://github.com/abatima)
-
-[Building a Snake Game in Python with Turtle](https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DBP7KMlb_Ssc)
-This video provides a step-by-step walkthrough of building a Snake game using the same Python Turtle library and object-oriented approach used in your repository.
