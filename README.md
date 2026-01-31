@@ -82,4 +82,4 @@ Feel free to fork this project and submit a pull request! Potential improvements
 
 ---
 
-*Created by [abatima*](https://www.google.com/search?q=https://github.com/abatima)
+*Created by [abatima*](https://github.com/abatima)
