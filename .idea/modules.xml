@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Day18_Turtle_GUI/.idea/Day18_Turtle_GUI.iml" filepath="$PROJECT_DIR$/../Day18_Turtle_GUI/.idea/Day18_Turtle_GUI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Day19_Instances_State_Higher_Order_Funcrtions/.idea/Day19_Instances_State_Higher_Order_Funcrtions.iml" filepath="$PROJECT_DIR$/../Day19_Instances_State_Higher_Order_Funcrtions/.idea/Day19_Instances_State_Higher_Order_Funcrtions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SnakeGame.iml" filepath="$PROJECT_DIR$/.idea/SnakeGame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../day17_Quiz/.idea/day17_Quiz.iml" filepath="$PROJECT_DIR$/../day17_Quiz/.idea/day17_Quiz.iml" />
     </modules>
   </component>
 </project>

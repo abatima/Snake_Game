@@ -4,10 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.13 (SnakeGame)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (Day16_Turtle_Pretty_Table_CoffeeMachineOOP)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Day19_Instances_State_Higher_Order_Funcrtions" />
-    <orderEntry type="module" module-name="Day18_Turtle_GUI" />
-    <orderEntry type="module" module-name="day17_Quiz" />
   </component>
 </module>
