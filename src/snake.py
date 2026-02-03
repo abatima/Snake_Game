@@ -26,6 +26,13 @@ class Snake:
     def extend_snake(self):
         self.add_snake_part(self.snake_parts[-1].position())
 
+    def reset(self):
+        for part in self.snake_parts:
+            part.teleport(1000, 1000)
+        self.snake_parts.clear()
+        self.create()
+        self.snake_head = self.snake_parts[0]
+
     def move(self):
         for snake_part_number in range(len(self.snake_parts) - 1, 0, -1):
             new_x = self.snake_parts[snake_part_number - 1].xcor()
