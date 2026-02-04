@@ -1,6 +1,6 @@
 # Snake Game 🐍
 
-A modernized, object-oriented implementation of the classic Snake arcade game using Python and Turtle. Featuring high-score persistence, improved collision physics, and a modular architecture that separates snake behavior, food mechanics, and UI management.
+A polished, object-oriented implementation of the classic Snake arcade game using Python and Turtle. Featuring high-score persistence, improved collision physics, and a modular architecture that separates snake behavior, food mechanics, and UI management.
 
 ## 🎮 Features
 
