@@ -1,14 +1,14 @@
 # Snake Game 🐍
 
-A modern take on the classic arcade game built using **Python** and the **Turtle** graphics library. This project utilizes object-oriented programming (OOP) to manage the snake's behavior, food generation, and real-time score tracking.
+A modernized, object-oriented implementation of the classic Snake arcade game using Python and Turtle. Featuring high-score persistence, improved collision physics, and a modular architecture that separates snake behavior, food mechanics, and UI management.
 
 ## 🎮 Features
 
-* **Snake Growth:** Every time the snake eats food, it grows longer and the score increases.
-* **Collision Detection:** The game detects when the snake hits the wall or its own tail.
-* **Randomized Food:** Food spawns at random locations across the screen.
-* **Scoreboard & High Score:** Tracks your current score and displays a "Game Over" message upon collision.
-* **Smooth Animation:** Uses screen updates and time delays for fluid movement.
+* **Persistent High Scores:** Your best score is now saved to a local data file, allowing you to track progress over time.
+* **Modular OOP Design:** Separate classes for the snake, food, and scoreboard ensure clean, maintainable code.
+* **Dynamic Snake Growth:** The snake body expands and speeds up as you consume food.
+* **Boundary & Tail Detection:** Enhanced collision logic detects both wall hits and self-collisions to trigger game-over states.
+* **Smooth Refresh Rates:** Optimized using `screen.tracer(0)` and `screen.update()` for flicker-free gameplay.
 
 ## 🛠️ Built With
 
@@ -19,7 +19,7 @@ A modern take on the classic arcade game built using **Python** and the **Turtle
 
 ### Prerequisites
 
-Make sure you have Python 3.x installed. You can verify this by running:
+Ensure you have Python 3.x installed. You can check your version by running:
 
 ```bash
 python --version
@@ -54,32 +54,29 @@ python main.py
 
 ## 🕹️ How to Play
 
-Guide the snake to eat the food and grow as long as possible without hitting the boundaries or yourself.
+Navigate the snake to eat the food and grow as long as possible. The game ends if you hit the wall or your own tail.
 
 ### Controls
 
-Use the **Arrow Keys** on your keyboard to navigate:
+Use the **Arrow Keys** to navigate:
 
-* **Up Arrow:** Move North
-* **Down Arrow:** Move South
-* **Left Arrow:** Move West
-* **Right Arrow:** Move East
+* **Up Arrow:** North
+* **Down Arrow:** South
+* **Left Arrow:** West
+* **Right Arrow:** East
 
 ## 📂 File Structure
 
-* `main.py`: The core game engine. It manages the screen setup, game loop, and collision logic.
-* `snake.py`: Handles the creation of the snake segments, movement logic, and directional constraints.
-* `food.py`: A subclass of the Turtle class that manages the food's appearance and random repositioning.
-* `scoreboard.py`: Manages the UI, tracks the current score, and handles the "Game Over" state.
+* `main.py`: The entry point that initializes the game loop and manages screen refreshes.
+* `snake.py`: Manages the snake's segments, movement directions, and body extension logic.
+* `food.py`: Handles the randomized spawning of food items on the grid.
+* `scoreboard.py`: Manages the UI, current score tracking, and data persistence for high scores.
+* `data.txt`: A local file used to store and retrieve your all-time high score.
 
 ## 📜 License
 
 This project is open-source and available under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
-## 🤝 Contributing
-
-Feel free to fork this project and submit a pull request! Potential improvements could include adding a "High Score" persistence file (`data.txt`) or different difficulty levels.
-
 ---
 
-Created by [abatima](https://github.com/abatima)
+*Created by [abatima*](https://github.com/abatima)
