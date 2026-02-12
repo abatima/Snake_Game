@@ -1,5 +1,8 @@
 # Snake Game 🐍
 
+## <img width="601" height="632" alt="image" src="https://github.com/user-attachments/assets/162f66dc-d982-4640-ac52-d0f21976eafd" />
+
+
 A polished, object-oriented implementation of the classic Snake arcade game using Python and Turtle. Featuring high-score persistence, improved collision physics, and a modular architecture that separates snake behavior, food mechanics, and UI management.
 
 ## 🎮 Features
